@@ -20,11 +20,12 @@
     
 }
 
-  .links {
+ /* .links {
     /* border: 1px solid #fff;  /* For debugging */
-    display: flex; /* Flex property */
-    justify-content: flex-end; /* Position */
-}
+   /* display: flex;  Flex property */
+    /* justify-content: flex-end;
+} */
+
 
   .login {
     margin-left: 20px;
@@ -100,4 +101,15 @@
 
 .footer-three {
   flex: 2;
+}
+
+.footer-one,
+.footer-three {
+  background-color: #5995DA;
+  flex: initial;
+  width: 300px;
+}
+
+.signup {
+  margin-left: auto;
 }
