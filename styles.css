@@ -19,3 +19,13 @@
     justify-content: space-between;
     
   }
+
+  .links {
+    /* border: 1px solid #fff;  /* For debugging */
+    display: flex; /* Flex property */
+    justify-content: flex-end; /* Position */
+  }
+
+  .login {
+    margin-left: 20px;
+  }
